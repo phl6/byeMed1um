@@ -1,5 +1,3 @@
-# NOT ALL HERO WEAR CAPES
-
 ## Installation
 1. download the project as zip
 2. unzip
