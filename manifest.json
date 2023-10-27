@@ -1,0 +1,21 @@
+{
+    "name": "Bypass Medium.com",
+    "icons": {
+        "16": "FUCKYOU.png",
+        "32": "FUCKYOU.png",
+        "48": "FUCKYOU.png",
+        "128": "FUCKYOU.png"
+    },
+    "version": "1.0.0",
+    "description": "Bypass Medium.com",
+    "manifest_version": 3,
+    "author": "DLS",
+    "content_scripts": [
+        {
+          "matches": [
+            "https://*.medium.com/*"
+            ],
+            "js": ["script.js"]
+        }
+    ]
+}
